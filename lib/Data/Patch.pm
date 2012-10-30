@@ -29,6 +29,8 @@ our $VERSION = '0.01';
   
 =head1 DESCRIPTION
 
+  http://tools.ietf.org/html/draft-pbryan-json-patch-00
+
 =head1 INTERFACE 
 
 =head2 C<< data_diff >>
