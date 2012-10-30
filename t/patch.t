@@ -52,6 +52,19 @@ my @case = (
       },
     ],
   },
+  {
+    name => 'Add key',
+    a    => {},
+    b    => { 'args' => ['Snoofus?'] },
+    want => [
+      {
+        op      => 'add',
+        path    => '$',
+        element => 'args',
+        value   => ['Snoofus?']
+      },
+    ],
+  },
 );
 
 plan tests => 2 * @case;
