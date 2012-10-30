@@ -1,7 +1,9 @@
 Build.PL
 Changes
-MANIFEST
-README
 inc/MyBuilder.pm
 lib/Data/Patch.pm
+MANIFEST
+README
 t/00.load.t
+t/diff.t
+t/patch.t

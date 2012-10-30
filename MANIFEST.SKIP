@@ -31,3 +31,5 @@
 ^Data-Patch-
 ^Session\.vim$
 ^tools/
+^MYMETA\.yml$
+^MYMETA\.json$
