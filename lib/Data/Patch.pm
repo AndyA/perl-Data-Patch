@@ -93,7 +93,6 @@ sub _diff {
           }
         }
         else {
-          die;
           $cb->( 'add', @path, $k, $db->{$k} );
         }
       }
