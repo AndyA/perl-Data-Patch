@@ -110,7 +110,7 @@ sub _diff {
         $cb->( 'add', @path, $i, $db->[$i] );
       }
       for ( my $i = $lb; $i < $la; $i++ ) {
-        $cb->( 'remove', @path, $i );
+        $cb->( 'remove', @path, $lb );
       }
       return;
     }

@@ -65,6 +65,21 @@ my @case = (
       },
     ],
   },
+  {
+    name => 'Empty array',
+    a    => { args => [ 'Hello', 'World' ] },
+    b    => { args => [] },
+    want => [
+      {
+        op   => 'remove',
+        path => '$.args.0',
+      },
+      {
+        op   => 'remove',
+        path => '$.args.0',
+      },
+    ],
+  },
 );
 
 plan tests => 2 * @case;
